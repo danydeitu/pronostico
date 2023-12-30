@@ -25,5 +25,5 @@ def obtener_pronostico(ciudad):
         print(f'Error al obtener el pronóstico. Código de error: {respuesta.status_code}')
 
 # Ejemplo de uso
-ciudad = 'San Miguel'
+ciudad = 'Paris'
 obtener_pronostico(ciudad)
